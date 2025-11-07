@@ -106,7 +106,8 @@ Antes de poder correr la aplicación, necesitamos obtener el código fuente y de
      docker build -t app .
     ```
 - **1.2)** ¿Qué espacio ocupa la imagen una vez creada?
-    ```282 mb
+    ```
+    282 mb
     ```
 - **1.3)** ¿Puede hacer algo para optimizar o mejorar la imagen?. Describa qué modificaciones puede hacer para optimizar la imagen.
     ```bash
