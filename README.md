@@ -102,10 +102,7 @@ Antes de poder correr la aplicación, necesitamos obtener el código fuente y de
 **ENTREGABLE:**
 
 - **1.1)** Ejecute el comando correspondiente para buildear la imagen. Elija un nombre de imagen y un tag acorde. 
-    ```docker build -t app .
-
-
-    # Escriba acá el comando utilizado
+    ```    # Docker build -t app .
     ```
 - **1.2)** ¿Qué espacio ocupa la imagen una vez creada?
     ```bash
