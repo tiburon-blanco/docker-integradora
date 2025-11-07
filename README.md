@@ -103,11 +103,10 @@ Antes de poder correr la aplicación, necesitamos obtener el código fuente y de
 
 - **1.1)** Ejecute el comando correspondiente para buildear la imagen. Elija un nombre de imagen y un tag acorde. 
     ```   
-     Docker build -t app .
+     docker build -t app .
     ```
 - **1.2)** ¿Qué espacio ocupa la imagen una vez creada?
-    ```bash
-    # Espacio utilizado
+    ```282 mb
     ```
 - **1.3)** ¿Puede hacer algo para optimizar o mejorar la imagen?. Describa qué modificaciones puede hacer para optimizar la imagen.
     ```bash
