@@ -202,12 +202,39 @@ Para compartir la imágen de la aplicación usaremos la registry de [DockerHub](
 - **3.1)** Comparta la URL de DockerHub para que pueda ser posible probar y descargar su imágen.
 
     [Inserte la URL de la imágen](https://dockerhub.com/)
+    docker push tiburonblanco/app:tagname
 
 > [!IMPORTANT]
 > Agregue un _overview_ para el repositorio de Dockerhub con instrucciones para correr la imágen y todo lo que considere necesario para que un tercero pueda ejecutar la imágen.
 
+
+
 > [!TIP]
 > Utilice el formato [markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para darle formato al overview.
+
+# docker-integradora
+
+Aplicación Node.js contenedorizada lista para ejecutar en cualquier host con Docker.
+
+## Requisitos
+- Docker 20+ (recomendado)
+- Puerto libre `3000` en el host (configurable)
+
+## Imagen
+- **Docker Hub:** `tiburon-blanco/app`
+- **Tags:** `1.0.1`, `latest`
+
+## Quick start
+```bash
+# Descargar imagen
+docker pull tiburon-blanco/app:1.0.1
+
+# Ejecutar (modo daemon)
+docker run -d --rm \
+  --name app \
+  -p 3000:3000 \
+  tiburon-blanco/app:1.0.1
+
 
 
 ## Parte 4 - Persistencia de datos
